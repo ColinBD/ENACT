@@ -1,0 +1,21 @@
+{
+    "title": "Option 1",
+    "description": "Presents an ENACT activity comprising pre-task, main task, post-task content",
+    "majorVersion": 1,
+    "minorVersion": 0,
+    "patchVersion": 26,
+    "runnable": 1,
+    "author": "Colin Bone Dodds",
+    "license": "cc-by-sa",
+    "machineName": "H5P.option1",
+    "coreApi": {
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    "preloadedJs": [
+      { "path": "option1.js" }
+    ],
+    "preloadedCss": [
+      {"path": "option1.css"}
+    ]
+  }
