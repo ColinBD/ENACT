@@ -3,7 +3,7 @@
     "description": "Presents an ENACT activity comprising pre-task, main task, post-task content",
     "majorVersion": 1,
     "minorVersion": 0,
-    "patchVersion": 26,
+    "patchVersion": 28,
     "runnable": 1,
     "author": "Colin Bone Dodds",
     "license": "cc-by-sa",

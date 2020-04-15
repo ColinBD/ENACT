@@ -1,6 +1,6 @@
 [ 
     { 
-      "label": "Activity", 
+      "label": "Activity name", 
       "name": "activity", 
       "type": "text",  
       "description": "What is your activity?"
@@ -10,7 +10,8 @@
       "type": "library",
       "label": "Pre-task introduction",
       "options": [
-        "H5P.CoursePresentation 1.21"
+        "H5P.CoursePresentation 1.21",
+        "H5P.ThreeImage 0.3"
       ]
     },
     {
