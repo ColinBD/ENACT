@@ -1,0 +1,24 @@
+[ 
+    { 
+      "label": "Activity name", 
+      "name": "activity", 
+      "type": "text",  
+      "description": "What is your activity?"
+    }, 
+    {
+      "name": "preTask",
+      "type": "library",
+      "label": "Pre-task introduction",
+      "options": [
+        "H5P.InteractiveVideo 1.21"
+      ]
+    },
+    {
+      "name": "mainTask",
+      "type": "library",
+      "label": "main-task content",
+      "options": [
+        "H5P.InteractiveVideo 1.21"
+      ]
+    }
+  ]

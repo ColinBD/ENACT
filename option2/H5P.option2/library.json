@@ -1,0 +1,21 @@
+{
+    "title": "Option 2",
+    "description": "Presents an ENACT activity comprising pre-task, and main task with a recap quiz embeddeed at the end of the main task's interactive video",
+    "majorVersion": 1,
+    "minorVersion": 0,
+    "patchVersion": 1,
+    "runnable": 1,
+    "author": "Colin Bone Dodds",
+    "license": "cc-by-sa",
+    "machineName": "H5P.option2",
+    "coreApi": {
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    "preloadedJs": [
+      { "path": "option2.js" }
+    ],
+    "preloadedCss": [
+      {"path": "option2.css"}
+    ]
+  }
