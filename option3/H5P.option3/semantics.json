@@ -34,7 +34,7 @@
         "type": "library",
         "label": "multiple choice recap quiz",
         "options": [
-          "H5P.MultiChoice 1.14"
+          "H5P.SingleChoiceSet 1.11"
         ]
       }
   ]
