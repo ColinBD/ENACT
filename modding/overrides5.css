@@ -1,0 +1,43 @@
+.h5peditor-label-wrapper[for="field-extratitle--1"]::before {
+    content: "Ok, ready to make an activity? First, we need a couple of details... ";
+    font-size: x-large;
+}
+
+.h5peditor-label-wrapper[for="field-extratitle--1"] {
+    display: block;
+}
+
+.h5peditor-label-wrapper[for="field-pretask-14"]::before {
+    content: "You need to give users a sense of the context of your activity. Using the dropdown box below, choose either a course presentation if you want to create a slide-show, or select 'virtual tour 360' if you want to create a 360 image experience";
+    font-size: large;
+}
+
+.h5peditor-label-wrapper[for="field-pretask-14"] {
+    display: block;
+}
+
+.h5peditor-label-wrapper[for="field-extratitle-62"]::before {
+    content: "Now you need to inform users about how the activity is done";
+    font-size: x-large;
+}
+
+.h5peditor-label-wrapper[for="field-extratitle-62"] {
+    display: block;
+}
+
+.h5peditor-label-wrapper[for="field-extratitle-17"]::before {
+    content: "Now create a recap quiz for users to give them a chance to reflect on what they have learned";
+    font-size: x-large;
+}
+
+.h5peditor-label-wrapper[for="field-extratitle-17"] {
+    display: block;
+}
+
+
+
+/*
+.h5peditor .h5p-editor-flex-wrapper {
+    background: yellow;
+} */
+
