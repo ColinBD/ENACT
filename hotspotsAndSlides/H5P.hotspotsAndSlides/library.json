@@ -1,0 +1,21 @@
+{
+    "title": "hotspotsAndSlides",
+    "description": "wraps the hoptspots and slides libraries",
+    "majorVersion": 1,
+    "minorVersion": 0,
+    "patchVersion": 1,
+    "runnable": 1,
+    "author": "Colin Bone Dodds",
+    "license": "cc-by-sa",
+    "machineName": "H5P.hotspotsAndSlides",
+    "coreApi": {
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    "preloadedJs": [
+      { "path": "hotspotsAndSlides.js" }
+    ],
+    "preloadedCss": [
+      {"path": "hotspotsAndSlides.css"}
+    ]
+  }
