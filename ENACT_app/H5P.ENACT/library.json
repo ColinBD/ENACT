@@ -1,0 +1,21 @@
+{
+    "title": "ENACT",
+    "description": "Presents an ENACT activity comprising pre-task, main task, post-task content",
+    "majorVersion": 2,
+    "minorVersion": 0,
+    "patchVersion": 6,
+    "runnable": 1,
+    "author": "Colin Bone Dodds",
+    "license": "cc-by-sa",
+    "machineName": "H5P.ENACT",
+    "coreApi": {
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    "preloadedJs": [
+      { "path": "ENACT.js" }
+    ],
+    "preloadedCss": [
+      {"path": "ENACT.css"}
+    ]
+  }

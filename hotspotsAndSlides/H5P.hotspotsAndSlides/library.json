@@ -1,9 +1,9 @@
 {
-    "title": "hotspotsAndSlides",
+    "title": "Hotspots and Slides",
     "description": "wraps the hoptspots and slides libraries",
     "majorVersion": 1,
     "minorVersion": 0,
-    "patchVersion": 1,
+    "patchVersion": 5,
     "runnable": 1,
     "author": "Colin Bone Dodds",
     "license": "cc-by-sa",
