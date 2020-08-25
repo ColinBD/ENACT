@@ -115,7 +115,7 @@ function h5pmods_alter_scripts(&$scripts, $libraries, $embed_type) {
 function h5pmods_alter_styles(&$styles, $libraries, $embed_type) {
   $styles[] = (object) array(
     // Path can be relative to wp-content/uploads/h5p or absolute.
-    'path' => '/overrides12.css',
+    'path' => '/overrides15.css',
     'version' => '?ver=1.3.7' // Cache buster
   );
 }

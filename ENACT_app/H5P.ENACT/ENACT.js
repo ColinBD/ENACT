@@ -4,21 +4,25 @@ H5P.ENACT = (function ($) {
   /**
    * Constructor function.
    */
-  function C(options, id) {
+  function C(options, id, contentId) {
     // Extend defaults with provided options
     this.options = $.extend(true, {}, {
-        activityName: 'enact activity',
-      introMsg: 'On this page you will learn about ',
+      //introMsg: 'On this page you will learn about ',
       preTaskMsg1: 'First, we need to give you an idea of what this activity is all about.',
       preTaskMsg2: "Now we'll teach you some of the key vocabulary relating to this activity.",
       mainTaskMsg: "Now we'll show you how to do the activity." ,
       postTaskMsg: "Let's see how much you remember about this activity...",
       image: null
     }, options);
-    console.log("here come the options");
-    console.log(this.options);
+    // console.log("here comes the contentId");
+    // console.log(contentId.metadata.title);
+    // console.log("here comes the ID");
+    // console.log(id);
+    // console.log("here come the options");
+    // console.log(this.options);
     // Keep provided id.
     this.id = id;
+    this.activityName = contentId.metadata.title;
 
     // initialise the external libraries
     if (this.options.preTask1) {
@@ -70,11 +74,11 @@ H5P.ENACT = (function ($) {
     // container.  Allows for styling later.
     $container.addClass("h5p-option1");
     // Add intro message
-    if (this.options.activity) {
-      $container.append('<div class="option1-text">' + this.options.introMsg + this.options.activity + '.<br></div>');
-    } else {
-      $container.append('<div class="option1-text">On this page you will learn about a cultural activity</div>');
-    }
+    // if (this.activityName) {
+    //   $container.append('<div class="option1-text">' + this.options.introMsg + this.activityName + '.<br></div>');
+    // } else {
+    //   $container.append('<div class="option1-text">On this page you will learn about a cultural activity</div>');
+    // }
     
     // Add pre-task 1 message
     $container.append('<div class="preTask1-text">' + this.options.preTaskMsg1 + '<br></div>');
