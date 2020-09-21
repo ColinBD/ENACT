@@ -1,0 +1,4 @@
+name = mods
+description = modifies the H5P css
+core = 7.x
+package = My Modules

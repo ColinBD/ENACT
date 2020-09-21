@@ -1,0 +1,114 @@
+/******************  FOR ENACT APP PRESENTATION  ********************/
+/* things to add in */
+
+.h5peditor-label-wrapper[for="field-extratitle--1"]::before {
+    content: "Ready to make an activity? First, please give it a name... ";
+    font-size: x-large;
+}
+
+.h5peditor-label-wrapper[for="field-extratitle--1"] {
+    display: block;
+}
+
+.libwrap.h5p-singlechoiceset-editor:before {
+    content: "Now create a recap quiz for users to give them a chance to reflect on what they have learned. When you are finished, click the 'Create' button.";
+    font-size: x-large;
+}
+
+.libwrap.h5p-singlechoiceset-editor::after {
+    content: "Now find and click the Create button to publish your activity";
+    font-size: x-large;
+} 
+
+/* 
+
+.h5peditor-label-wrapper[for="field-pretask-14"]::before {
+    content: "You need to give users a sense of the context of your activity. Using the dropdown box below, choose either a course presentation if you want to create a slide-show, or select 'virtual tour 360' if you want to create a 360 image experience";
+    font-size: large;
+}
+
+.h5peditor-label-wrapper[for="field-pretask-14"] {
+    display: block;
+}
+
+.libwrap.h5p-interactivevideo-editor:before {
+    content: "Next, create an interactive video to inform users about how the activity is done";
+    font-size: x-large;
+} 
+*/
+
+/* things to remove */
+
+.field-name-iconType {
+    display: none;
+}
+
+.h5peditor-copypaste-wrap {
+    display: none;
+} 
+
+.h5p-metadata-button-wrapper {
+    display: none;
+}
+
+.importance-low{
+    display: none;
+}
+
+.h5p-hub {
+    display: none;
+}
+
+.form-manager-head {
+    display: none;
+}
+
+.h5peditor-field-description {
+    display: none;
+}
+
+.h5peditor-form-manager-head {
+    display: none;
+}
+
+.libwrap .field-name-extraTitle {
+    display: none;
+}
+
+.common {
+    display: none;
+}
+
+.h5peditor-guided-tour {
+    display: none;
+}
+
+.field-name-backgroundImageAltText {
+    display: none;
+}
+
+.importance-medium {
+    display: none;
+}
+
+/* .h5p-threeimage-editor .field-name-extraTitle {
+    display: none;
+}
+
+.h5p-coursepresentation-editor .field-name-extraTitle {
+    display: none;
+}
+
+.h5p-interactivevideo-editor .field-name-extraTitle {
+    display: none;
+}
+
+.h5p-singlechoiceset-editor .field-name-extraTitle {
+    display: none;
+}
+
+.h5p-imagehotspots-editor .field-name-extraTitle {
+    display: none;
+} */
+
+
