@@ -4,7 +4,7 @@ function mods_h5p_styles_alter(&$styles, $libraries, $mode) {
   if ($mode == 'editor') {
     $styles[] = (object) array(
       // Path relative to drupal root
-      'path' => drupal_get_path('module', 'mods') . '/enactCSSmods19.css',
+      'path' => drupal_get_path('module', 'mods') . '/enactCSSmods25.css',
       // Cache buster
       'version' => '?ver=1',
     );

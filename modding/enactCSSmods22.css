@@ -1,0 +1,327 @@
+/******************  FOR ENACT APP PRESENTATION  ********************/
+
+/***** THINGS TO ADD IN *****/
+
+.h5peditor-label-wrapper[for="field-extratitle--1"] span{
+    display: none
+}
+
+.h5peditor-label-wrapper[for="field-extratitle--1"]::after {
+    content: "Please give the activity a name.";
+}
+
+
+/***** GLOBAL THINGS TO REMOVE *****/
+
+/* .form-manager-breadcrumb {
+    display: none;
+} */
+
+.field-name-displayAsButton {
+    display: none;
+}
+
+.h5peditor-copypaste-wrap {
+    display: none;
+} 
+
+.h5p-metadata-button-wrapper {
+    display: none;
+}
+
+/* .form-manager-head {
+    display: none;
+} */
+
+.form-manager-footer {
+    display: none;
+}
+/* we need the above 2 rules (head and footer) for the course presentation add image interaction */
+
+.h5peditor-guided-tour {
+    display: none;
+}
+
+.libwrap .field-name-extraTitle {
+    display: none;
+}
+
+.h5peditor-form-manager-head {
+    display: none;
+}
+
+/* .importance-low{
+    display: none;
+} */
+
+.field-name-iconType {
+    display: none;
+}
+
+.h5p-metadata-button-wrapper {
+    display: none;
+}
+
+.h5p-hub {
+    display: none;
+}
+
+.h5peditor-field-description {
+    display: none;
+}
+
+.common {
+    display: none;
+}
+
+.field-name-backgroundImageAltText {
+    display: none;
+} 
+
+.h5peditor-copypaste-wrap {
+    display: none;
+} 
+
+.h5p-metadata-button-wrapper {
+    display: none;
+}
+
+.h5peditor-guided-tour {
+    display: none;
+}
+
+
+/***** INTERACTIVE VIDEO REMOVALS *****/
+
+/* note: below conflicts with importance-low class as video pause button has both classes */
+.h5peditor-interaction-pause {
+    display: block !important;
+}
+
+/* .h5p-interactivevideo-editor .field-name-goto {
+    display: none;
+} */
+
+.h5p-interactivevideo-editor .h5p-image-radio-button-group {
+    display: none;
+}
+
+
+/* to remove the formatting tools from the text edit window in interactive video */
+/* .h5p-interactivevideo-editor #cke_1_top {
+    display: none;
+} */
+
+.field.wizard .h5peditor-tab-li:last-child > .h5peditor-tab-a {
+    display: none;
+}
+
+.h5peditor-wizard-navigation-buttons{
+    visibility: hidden;
+    display: none;
+}
+
+/* I could keep the label */
+/* .h5p-interactive-video-dragnbar .h5p-dragnbar-li:first-child{
+    display: none;
+} */
+.h5p-interactive-video-dragnbar .h5p-dragnbar-li:nth-child(3){
+    display: none;
+}
+.h5p-interactive-video-dragnbar .h5p-dragnbar-li:nth-child(4){
+    display: none;
+}
+.h5p-interactive-video-dragnbar .h5p-dragnbar-li:nth-child(6){
+    display: none;
+}
+.h5p-interactive-video-dragnbar .h5p-dragnbar-li:nth-child(7){
+    display: none;
+}
+.h5p-interactive-video-dragnbar .h5p-dragnbar-li:nth-child(8){
+    display: none;
+}
+.h5p-interactive-video-dragnbar .h5p-dragnbar-li:nth-child(9){
+    display: none;
+}
+.h5p-interactive-video-dragnbar .h5p-dragnbar-li:nth-child(10){
+    display: none;
+}
+.h5p-interactive-video-dragnbar .h5p-dragnbar-li:nth-child(11){
+    display: none;
+}
+.h5p-interactive-video-dragnbar .h5p-dragnbar-li:nth-child(12){
+    display: none;
+}
+.h5p-interactive-video-dragnbar .h5p-dragnbar-li:nth-child(13){
+    display: none;
+}
+.h5p-interactive-video-dragnbar .h5p-dragnbar-li:nth-child(14){
+    display: none;
+}
+.h5p-interactive-video-dragnbar .h5p-dragnbar-li:nth-child(15){
+    display: none;
+}
+.h5p-interactive-video-dragnbar .h5p-dragnbar-li:last-child{
+    display: none;
+}
+
+.field-name-startScreenOptions {
+    display: none;
+}
+.field-name-textTracks{
+    display: none;
+}
+.h5p-copyright-button {
+    display: none;
+}
+
+/* importance low here was hiding the label entry text box */
+.h5p-interactivevideo-editor .importance-low {
+    display: none;
+}
+
+.h5p-interactivevideo-editor .field-name-label {
+    display: block !important;
+}
+
+/* .libwrap.h5p-interactivevideo-editor .form-manager-head {
+    display: none;
+} */
+
+/***** VIRTUAL TOUR 360 REMOVALS *****/
+
+
+
+
+/***** COURSE PRESENTATION REMOVALS *****/
+
+.h5p-course-presentation .h5p-slides-menu{
+    display: none;
+}
+
+.h5p-course-presentation .importance-low{
+    display: none;
+}
+
+/* keep: 1. text; 3. Image; 5. Video; 7. Audio */
+/* remove: 2,4,6,8,9..13 */
+
+/* .h5p-course-presentation {
+    display: none;
+} */
+
+/* .h5p-coursepresentation-editor .form-manager-head{
+    display: none;
+} */
+
+/* link */
+.h5p-coursepresentation-editor .h5p-dragnbar-li:nth-child(2){
+    display: none;
+}
+
+/*  shapes */
+.h5p-coursepresentation-editor .h5p-dragnbar-li:nth-child(4){
+    display: none;
+}
+
+/* go to slide */
+.h5p-coursepresentation-editor .h5p-dragnbar-li:nth-child(6){
+    display: none;
+}
+
+.h5p-coursepresentation-editor .h5p-dragnbar-li:nth-child(8){
+    display: none;
+}
+
+.h5p-coursepresentation-editor .h5p-dragnbar-li:nth-child(9){
+    display: none;
+}
+
+.h5p-coursepresentation-editor .h5p-dragnbar-li:nth-child(10){
+    display: none;
+}
+
+.h5p-coursepresentation-editor .h5p-dragnbar-li:nth-child(11){
+    display: none;
+}
+
+.h5p-coursepresentation-editor .h5p-dragnbar-li:nth-child(12){
+    display: none;
+}
+
+.h5p-coursepresentation-editor .h5p-dragnbar-li:nth-child(13){
+    display: none;
+}
+
+.h5p-coursepresentation-editor .h5p-dragnbar-paste-button{
+    display: none;
+}
+
+.h5p-coursepresentation-editor .h5p-dragnbar-more-button{
+    display: none;
+}
+
+.libwrap.h5p-video-editor .field-name-visuals {
+    display: none;
+}
+
+.libwrap.h5p-video-editor .field-name-playback {
+    display: none;
+}
+
+.libwrap.h5p-video-editor .field-name-a11y {
+    display: none;
+}
+
+/***** IMAGE HOTSPOTS REMOVALS *****/
+
+/* .libwrap.h5p-imagehotspots-editor {
+    display:none;
+} */
+
+.h5p-imagehotspots-editor .h5p-editor-image-buttons {
+    display: none;
+}
+
+.h5p-imagehotspots-editor .field-name-color {
+    display: none;
+}
+
+ .h5p-editing-image-button {
+     display:none; 
+ }
+ 
+ .field-name-alwaysFullscreen {
+     display:none;
+ }
+ 
+ .field-name-hotspot .content .field-name-header{
+     display:none;
+ }
+ 
+ .h5p-imagehotspots-editor .h5p-editor-widget-show-when{
+     display:none;
+ }
+
+ .h5p-dragnbar-context-menu-button .copy {
+     display: none;
+ }
+
+ .h5p-dragnbar-context-menu-button .bringtofront {
+    display: none;
+ }
+
+ .h5p-dragnbar-context-menu-button .sendtoback {
+    display: none;
+ }
+
+/***** IMAGE SEQUENCING REMOVALS *****/
+
+/***** IMAGE PAIRS SEQUENCING REMOVALS *****/
+
+/***** SINGLE CHOICE SET REMOVALS *****/
+
+
+
+
+

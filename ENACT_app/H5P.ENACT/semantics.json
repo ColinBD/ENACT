@@ -2,7 +2,7 @@
     {
       "name": "preTask1",
       "type": "library",
-      "label": "You need to give users a sense of the context of your activity. Use the drop-down menu below to select the type of media you would like to use to create this brief introduction.",
+      "label": "Select a media type from the menu below and use it to create an introduction giving a sense of the activity’s context.",
       "options": [
         "H5P.InteractiveVideo 1.22",
         "H5P.ThreeImage 0.3"  
@@ -11,7 +11,7 @@
     {
       "name": "preTask2",
       "type": "library",
-      "label": "You should help users understand important vocabulary relating to the activity. Link images with audio pronunciations to convey the vocabulary using one of the two media type options below.",
+      "label": "Teach people important words used in the activity. You can do this with a ‘presentation’ or an ‘image’ with text and audio.",
       "options": [
         "H5P.CoursePresentation 1.22",
         "H5P.ImageHotspots 1.9"
@@ -20,7 +20,7 @@
     {
       "name": "mainTask",
       "type": "library",
-      "label": "You now need to inform people about how the activity is done. If all this information is contained within one video you should select the 'Interactive Video' option, otherwise select the 'Course Presentation' option to demonstrate the activity using short video clips over a series of slides",
+      "label": "Create instructions demonstrating how to do the activity. Choose ‘Interactive Video’ if you have one video for the whole activity, or ‘Course Presentation’ for visual instructions and short video clips.",
       "options": [
         "H5P.InteractiveVideo 1.22",
         "H5P.CoursePresentation 1.22"
@@ -29,7 +29,7 @@
       {
         "name": "postTask",
         "type": "library",
-        "label": "Test how much users learned about your activity here. Image Sequencing is a good choice if you want to test how much users learned about the process. Image Pairing can help you test users' knowledge of the activity's associated vocabulary. Single choice set can be used to make a standard text-based quiz.",
+        "label": "Test how much users learned about your activity. ‘Image Sequencing’ is a good choice if you want to test how much users learned about the process. ‘Image Pairing’ can help you test users' knowledge of the vocabulary. ‘Single choice set’ can be used to make a standard text-based quiz.",
         "options": [
           "H5P.ImageSequencing 1.1",
           "H5P.ImagePair 1.4",
